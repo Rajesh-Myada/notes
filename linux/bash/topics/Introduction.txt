@@ -1,0 +1,57 @@
+#Bash is a command line interface (CLI) and programming language that lets users interact with a computer's operating system
+#Bash is a powerful shell and scripting language used to interact with Unix-like operating systems, enabling users to execute commands, perform complex operations, and automate tasks through a text-based interface
+#In terminal communication with bash is done by commands
+#Shell allows us to enter commands and then it presents us with the results of those commands as output
+
+
+
+
+
+
+chmod [options] [mode] [File_name]
+Options         Description
+`-R`            Apply the permission change recursively to all the files and directories within the specified directory.
+`-v`            It will display a message for each file that is processed. while indicating the permission change that was made.
+`-c`            It works same as `-v` but in this case it only displays messages for files whose permission is changed.
+`-f`            It helps in avoiding display of error messages.
+-h`            Change the permissions of symbolic links instead of the files they point to.
+
+mode
+1)Symbolic mode
+mode = Reference+Operator+Letters
+
+Reference       Class
+u               Owner
+g               Group
+o               Others
+a               All (owner,groups,others)
+
+Operators       Definition
+`+`             Add permissions
+`-`             Remove permissions
+`=`             Set the permissions to the specified values
+
+Letters         Definition
+`r`             Read permission
+`w`             Write permission
+`x`             Execute permission
+
+2)Octal mode
+
+First digit specify the permission for Owner.
+Second digit specify the permission for Group.
+Third digit specify the permission for Others.
+
+The digits
+Value           Permission
+4               Read Permission
+2               Write Permission
+1               Execute Permission
+example :- chmod 674 [file_name]
+6 represent permission of file Owner which are (rw).
+7 represent permission of Group which are (rwx).
+4 represent permission of Other which is (r).
+
+
+#bash script file may or may not have .sh extention, to identify which file is bash script see the first of text i.e in bash script file the very first line is "#!/bin/bash" which is known as "shebang"
+# the shebang tells the script which interpreter to use

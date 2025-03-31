@@ -1,0 +1,18 @@
+Introduction
+Hello World
+Variables
+Math function
+If Statements
+Exit loop
+While loop
+Universal Update Script
+For loops
+FileSystem Locations for Script
+Data Stream
+Functions
+Case Statement
+Scheduling Jobs Part 1
+Scheduling Jobs Part 1
+Arguments
+Creating Backup Files
+Closing

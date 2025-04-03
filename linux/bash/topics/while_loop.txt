@@ -1,0 +1,2 @@
+#while loops, which allow you to continually execute something as long as some sort of condition is met
+

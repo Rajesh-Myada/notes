@@ -59,7 +59,7 @@
 
 
 #topic
-exit codes are used to find out whether the entered command is executed properly or it raised any error
+#exit codes are used to find out whether the entered command is executed properly or it raised any error
 #after a command is execuited, if it fails it raises the error
 #but in linux there is a command to see if the previous command is properly execuited
 

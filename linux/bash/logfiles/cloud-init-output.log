@@ -1,0 +1,83 @@
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'init-local' at Fri, 28 Mar 2025 15:01:23 +0000. Up 43.02 seconds.
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'init' at Fri, 28 Mar 2025 15:01:49 +0000. Up 69.10 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | ens33  | True |       192.168.117.129       | 255.255.255.0 | global | 00:0c:29:a6:29:fd |
+ci-info: | ens33  | True | fe80::20c:29ff:fea6:29fd/64 |       .       |  link  | 00:0c:29:a6:29:fd |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 192.168.117.2 |    0.0.0.0    |   ens33   |   UG  |
+ci-info: |   1   | 192.168.117.0 |    0.0.0.0    | 255.255.255.0 |   ens33   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |   ens33   |   U   |
+ci-info: |   2   |    local    |    ::   |   ens33   |   U   |
+ci-info: |   3   |  multicast  |    ::   |   ens33   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:H0gPtXrp7rP2hGC2SFB7xkPLIegif+TOkvpo9F1dfv4 root@rajesh
+The key's randomart image is:
++---[RSA 3072]----+
+|     .o o .      |
+|    .. * + .     |
+|   .. . X .      |
+|. . o. + * o     |
+| o +  . S B      |
+| .. o. = B + .   |
+|. .=. o . + +    |
+| oo.o.   .o. .   |
+|+o..     o++. .E |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:11HTEObfc7bNS04DKX/q5CCEK+1SGQActxQKUcbIQcI root@rajesh
+The key's randomart image is:
++---[ECDSA 256]---+
+|==B=o+.       *+ |
+|.Eoo+..      + ..|
+|   . ..     . .  |
+|       ..  . ....|
+|       .S....o .=|
+|      .oo.  o .o=|
+|     ..o . . o *o|
+|     .o   . + * o|
+|      ..    .+ o |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:QStNRISXOS/tJe+hfxKgZx2ADHCS23TTgHhQW7q4ILg root@rajesh
+The key's randomart image is:
++--[ED25519 256]--+
+|    +*+OO*       |
+|    oo=BX.o      |
+|     =+o+= .     |
+|.   ...o..= o    |
+|o . . . S+ * .   |
+| o . .  . + =    |
+|E   .    o o o   |
+|          . o .  |
+|           ..o   |
++----[SHA256]-----+
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'modules:config' at Fri, 28 Mar 2025 15:02:00 +0000. Up 79.58 seconds.
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Cloud-init v. 24.4-0ubuntu1~24.04.2 running 'modules:final' at Fri, 28 Mar 2025 15:03:01 +0000. Up 141.99 seconds.
+Cloud-init v. 24.4-0ubuntu1~24.04.2 finished at Fri, 28 Mar 2025 15:03:01 +0000. Datasource DataSourceNone.  Up 142.60 seconds

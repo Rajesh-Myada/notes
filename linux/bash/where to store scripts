@@ -1,0 +1,25 @@
+
+
+
+
+
+
+#topic
+#generally the scripts can be stored in current dir and can be execuited, but it is not secure and not best place to be execuited, it can't be accessed by anyone, but the scripts need to be execuited by others also sometimes
+#there should be a centeral location file system to which other user can access it, but it should't in open place sothat anyone can run it,it should have some permission to it so there is restriction to some actions like anyone can't delete or update it
+#file system heirarchy(fsh) is used to solve this problem,the fhs specification exist in order to clarify what the purpose is for each of the typical dir that are found on most or all distribution of linux
+#fhs document points out the user local dir for use with locally installed programs that system administrators use and this is perfect for storing scripts and run it
+#the scripts are stored in /usr/local/bin
+#the scripts which are in the current working dir can be moved to "/usr/bin/local/" by using command:
+#	sudo mv file_name /usr/local/bin/<same_or_different_file_name>
+#when moving the scripts we can either dont mention the file name in destiantion(which resulting the moving of files with same name) or different name or same name
+#sudo command is required get the administrative access to copy/move the file to/from the dir which the user doesn't own
+
+#if "ls -l" command is executed in /usr/local/bin the all the scripts/files with the additional information like permissions,filer owner,file is accesed by the group,file size,date,time,file name
+#	ls -l /usr/local/bin
+#we can see that the file which we moved is there and the owner,group name.But if you want the file not to be accessed by everyone you can change the owner,group of the file to root, to which they need special/sudo permissions.
+#	sudo chmod root:root /usr/local/bin/<file_name>
+#The file extentions are not required in the linux at all, it is there for users to see what type of file it is.In bash file we added shebang("#!/bin/bash) it tells the linus what type of interpreter to use
+
+#if scripts are stored in /usr/local/bin then the scripts can be executed from anywhere by simpling typing the filename
+

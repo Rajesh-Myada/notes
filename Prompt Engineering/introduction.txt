@@ -1,0 +1,3 @@
+#Prompt engeering is as much an art as it is a science
+Prompt: A detailed set of guidelines given to an LLm to do a task
+Engineering: Developing a task-specific prompt iteratively

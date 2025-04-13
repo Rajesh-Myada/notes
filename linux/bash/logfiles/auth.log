@@ -1,0 +1,1045 @@
+2025-03-28T15:01:37.342290+00:00 rajesh systemd-logind[1347]: New seat seat0.
+2025-03-28T15:01:37.342307+00:00 rajesh systemd-logind[1347]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-03-28T15:01:37.342323+00:00 rajesh systemd-logind[1347]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-03-28T15:01:38.060209+00:00 rajesh polkitd[1330]: Loading rules from directory /etc/polkit-1/rules.d
+2025-03-28T15:01:38.170469+00:00 rajesh polkitd[1330]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-03-28T15:01:39.402526+00:00 rajesh polkitd[1330]: Finished loading, compiling and executing 16 rules
+2025-03-28T15:01:39.408602+00:00 rajesh polkitd[1330]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-03-28T15:01:55.847061+00:00 rajesh useradd[1805]: new group: name=rajesh, GID=1000
+2025-03-28T15:01:55.847256+00:00 rajesh useradd[1805]: new user: name=rajesh, UID=1000, GID=1000, home=/home/rajesh, shell=/bin/bash, from=none
+2025-03-28T15:01:55.853183+00:00 rajesh useradd[1805]: add 'rajesh' to group 'adm'
+2025-03-28T15:01:55.853690+00:00 rajesh useradd[1805]: add 'rajesh' to group 'cdrom'
+2025-03-28T15:01:55.853838+00:00 rajesh useradd[1805]: add 'rajesh' to group 'sudo'
+2025-03-28T15:01:55.853953+00:00 rajesh useradd[1805]: add 'rajesh' to group 'dip'
+2025-03-28T15:01:55.854033+00:00 rajesh useradd[1805]: add 'rajesh' to group 'plugdev'
+2025-03-28T15:01:55.854110+00:00 rajesh useradd[1805]: add 'rajesh' to group 'users'
+2025-03-28T15:01:55.854189+00:00 rajesh useradd[1805]: add 'rajesh' to group 'lpadmin'
+2025-03-28T15:01:55.854359+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'adm'
+2025-03-28T15:01:55.854473+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'cdrom'
+2025-03-28T15:01:55.854546+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'sudo'
+2025-03-28T15:01:55.854639+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'dip'
+2025-03-28T15:01:55.863083+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'plugdev'
+2025-03-28T15:01:55.863467+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'users'
+2025-03-28T15:01:55.863644+00:00 rajesh useradd[1805]: add 'rajesh' to shadow group 'lpadmin'
+2025-03-28T15:01:56.081687+00:00 rajesh passwd[1819]: password for 'rajesh' changed by 'root'
+2025-03-28T15:02:09.569950+00:00 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-03-28T15:02:09.770997+00:00 rajesh systemd-logind[1347]: New session c1 of user gdm.
+2025-03-28T15:02:10.046507+00:00 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-03-28T15:02:36.412660+00:00 rajesh polkitd[1330]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-03-28T15:04:06.956825+00:00 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-03-28T15:04:06.957147+00:00 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-03-28T15:04:07.009684+00:00 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-03-28T15:04:07.090428+00:00 rajesh systemd-logind[1347]: New session 2 of user rajesh.
+2025-03-28T15:04:07.221156+00:00 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-03-28T15:04:08.513281+00:00 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-28T15:04:11.930569+00:00 rajesh gnome-keyring-daemon[2953]: The Secret Service was already initialized
+2025-03-28T15:04:11.934015+00:00 rajesh gnome-keyring-daemon[3260]: discover_other_daemon: 1
+2025-03-28T15:04:11.934156+00:00 rajesh gnome-keyring-daemon[3256]: discover_other_daemon: 1
+2025-03-28T15:04:11.934551+00:00 rajesh gnome-keyring-daemon[2953]: The PKCS#11 component was already initialized
+2025-03-28T15:04:11.935914+00:00 rajesh gnome-keyring-daemon[3259]: discover_other_daemon: 1
+2025-03-28T15:04:20.405855+00:00 rajesh polkitd[1330]: Registered Authentication Agent for unix-session:2 (system bus name :1.86 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-03-28T15:04:25.955372+00:00 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-03-28T15:04:26.033288+00:00 rajesh systemd-logind[1347]: Session c1 logged out. Waiting for processes to exit.
+2025-03-28T15:04:26.156205+00:00 rajesh polkitd[1330]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-03-28T15:04:26.182310+00:00 rajesh systemd-logind[1347]: Removed session c1.
+2025-03-28T15:05:01.451965+00:00 rajesh CRON[4346]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T15:05:01.498741+00:00 rajesh CRON[4346]: pam_unix(cron:session): session closed for user root
+2025-03-28T15:07:28.006114+00:00 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+2025-03-28T15:07:28.011929+00:00 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-28T15:07:54.062222+00:00 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-28T15:08:12.200130+00:00 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop ; USER=root ; COMMAND=/usr/bin/apt install git
+2025-03-28T15:08:12.202771+00:00 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-28T15:08:20.847187+00:00 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-28T15:08:20.850536+00:00 rajesh pkexec[4897]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-28T15:09:03.901089+00:00 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-28T15:11:20.430132+00:00 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-28T15:11:20.434541+00:00 rajesh pkexec[5094]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-28T15:15:01.529039+00:00 rajesh CRON[5247]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T15:15:01.547504+00:00 rajesh CRON[5247]: pam_unix(cron:session): session closed for user root
+2025-03-28T15:22:16.664005+00:00 rajesh gnome-keyring-daemon[2953]: couldn't initialize slot with master password: The password or PIN is incorrect
+2025-03-28T15:22:16.670636+00:00 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-28T15:25:01.575853+00:00 rajesh CRON[5364]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T15:25:01.587606+00:00 rajesh CRON[5364]: pam_unix(cron:session): session closed for user root
+2025-03-28T15:35:01.623667+00:00 rajesh CRON[5539]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T15:35:01.640471+00:00 rajesh CRON[5539]: pam_unix(cron:session): session closed for user root
+2025-03-28T15:54:02.226983+00:00 rajesh gnome-keyring-daemon[2953]: couldn't initialize slot with master password: The password or PIN is incorrect
+2025-03-28T15:54:02.228016+00:00 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-28T15:55:01.163455+00:00 rajesh CRON[5794]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T15:55:01.171122+00:00 rajesh CRON[5794]: pam_unix(cron:session): session closed for user root
+2025-03-28T16:00:01.194000+00:00 rajesh CRON[5812]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T16:00:01.201074+00:00 rajesh CRON[5812]: pam_unix(cron:session): session closed for user root
+2025-03-28T16:05:01.221509+00:00 rajesh CRON[5842]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T16:05:01.238038+00:00 rajesh CRON[5842]: pam_unix(cron:session): session closed for user root
+2025-03-28T16:12:53.881577+00:00 rajesh gnome-keyring-daemon[2953]: couldn't initialize slot with master password: The password or PIN is incorrect
+2025-03-28T16:12:53.887946+00:00 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-28T16:15:01.256125+00:00 rajesh CRON[5965]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T16:15:01.260360+00:00 rajesh CRON[5965]: pam_unix(cron:session): session closed for user root
+2025-03-29T18:42:59.686753+05:30 rajesh systemd-logind[1058]: New seat seat0.
+2025-03-29T18:42:59.686764+05:30 rajesh systemd-logind[1058]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-03-29T18:42:59.688999+05:30 rajesh systemd-logind[1058]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-03-29T18:43:00.424242+05:30 rajesh polkitd[1038]: Loading rules from directory /etc/polkit-1/rules.d
+2025-03-29T18:43:00.512083+05:30 rajesh polkitd[1038]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-03-29T18:43:02.686638+05:30 rajesh polkitd[1038]: Finished loading, compiling and executing 16 rules
+2025-03-29T18:43:02.700524+05:30 rajesh polkitd[1038]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-03-29T18:43:15.515418+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-03-29T18:43:15.985801+05:30 rajesh systemd-logind[1058]: New session c1 of user gdm.
+2025-03-29T18:43:16.248061+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-03-29T18:43:37.882475+05:30 rajesh polkitd[1038]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-03-29T18:44:20.008008+05:30 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-03-29T18:44:20.008431+05:30 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-03-29T18:44:20.028123+05:30 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-03-29T18:44:20.054914+05:30 rajesh systemd-logind[1058]: New session 2 of user rajesh.
+2025-03-29T18:44:20.112297+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-03-29T18:44:21.125735+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-29T18:44:24.333824+05:30 rajesh gnome-keyring-daemon[2387]: discover_other_daemon: 1
+2025-03-29T18:44:24.339511+05:30 rajesh gnome-keyring-daemon[2165]: The Secret Service was already initialized
+2025-03-29T18:44:24.340058+05:30 rajesh gnome-keyring-daemon[2396]: discover_other_daemon: 1
+2025-03-29T18:44:24.350042+05:30 rajesh gnome-keyring-daemon[2165]: The PKCS#11 component was already initialized
+2025-03-29T18:44:24.351663+05:30 rajesh gnome-keyring-daemon[2398]: discover_other_daemon: 1
+2025-03-29T18:44:31.543240+05:30 rajesh polkitd[1038]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-03-29T18:44:34.509276+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-03-29T18:44:34.537562+05:30 rajesh systemd-logind[1058]: Session c1 logged out. Waiting for processes to exit.
+2025-03-29T18:44:34.572231+05:30 rajesh polkitd[1038]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-03-29T18:44:34.854956+05:30 rajesh systemd-logind[1058]: Removed session c1.
+2025-03-29T18:45:01.756667+05:30 rajesh CRON[3268]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T18:45:01.814523+05:30 rajesh CRON[3268]: pam_unix(cron:session): session closed for user root
+2025-03-29T18:45:34.455886+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-29T18:45:34.458434+05:30 rajesh pkexec[3509]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-29T18:54:29.845185+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-29T18:54:29.846554+05:30 rajesh pkexec[4640]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-29T18:55:01.842578+05:30 rajesh CRON[4650]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T18:55:01.855569+05:30 rajesh CRON[4650]: pam_unix(cron:session): session closed for user root
+2025-03-29T18:58:43.087562+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-29T19:05:01.119629+05:30 rajesh CRON[4805]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:05:01.133528+05:30 rajesh CRON[4805]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:10:42.706792+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux ; USER=root ; COMMAND=/usr/bin/apt install vim
+2025-03-29T19:10:42.711858+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-29T19:11:08.900828+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-29T19:11:15.268696+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux ; USER=root ; COMMAND=/usr/bin/apt install gedit
+2025-03-29T19:11:15.270914+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-29T19:11:46.485434+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-29T19:12:29.953850+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-29T19:12:29.955406+05:30 rajesh pkexec[5653]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-29T19:15:01.164284+05:30 rajesh CRON[5686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:15:01.179774+05:30 rajesh CRON[5686]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:17:01.198462+05:30 rajesh CRON[5700]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:17:01.318449+05:30 rajesh CRON[5700]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:25:01.333052+05:30 rajesh CRON[5743]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:25:01.342382+05:30 rajesh CRON[5743]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:27:24.044660+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=rajesh uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=rajesh
+2025-03-29T19:27:30.622360+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-29T19:30:01.381444+05:30 rajesh CRON[5857]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:30:01.385803+05:30 rajesh CRON[5857]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:35:01.412619+05:30 rajesh CRON[5897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:35:01.428180+05:30 rajesh CRON[5897]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:45:01.458623+05:30 rajesh CRON[5987]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:45:01.471182+05:30 rajesh CRON[5987]: pam_unix(cron:session): session closed for user root
+2025-03-29T19:55:01.503097+05:30 rajesh CRON[6000]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T19:55:01.520307+05:30 rajesh CRON[6000]: pam_unix(cron:session): session closed for user root
+2025-03-29T20:05:01.551476+05:30 rajesh CRON[6019]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T20:05:01.565690+05:30 rajesh CRON[6019]: pam_unix(cron:session): session closed for user root
+2025-03-29T22:12:01.980132+05:30 rajesh CRON[6183]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T22:12:01.983012+05:30 rajesh CRON[6183]: pam_unix(cron:session): session closed for user root
+2025-03-29T22:12:01.986362+05:30 rajesh CRON[6185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-29T22:12:01.988187+05:30 rajesh CRON[6185]: pam_unix(cron:session): session closed for user root
+2025-03-31T12:57:29.987011+05:30 rajesh systemd-logind[1256]: New seat seat0.
+2025-03-31T12:57:29.987025+05:30 rajesh polkitd[1247]: Loading rules from directory /etc/polkit-1/rules.d
+2025-03-31T12:57:29.987047+05:30 rajesh polkitd[1247]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-03-31T12:57:29.987054+05:30 rajesh systemd-logind[1256]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-03-31T12:57:29.987060+05:30 rajesh systemd-logind[1256]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-03-31T12:57:30.886680+05:30 rajesh polkitd[1247]: Finished loading, compiling and executing 16 rules
+2025-03-31T12:57:30.893473+05:30 rajesh polkitd[1247]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-03-31T12:57:47.667892+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-03-31T12:57:47.833304+05:30 rajesh systemd-logind[1256]: New session c1 of user gdm.
+2025-03-31T12:57:48.311745+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-03-31T12:58:21.267432+05:30 rajesh polkitd[1247]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-03-31T13:01:40.374355+05:30 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-03-31T13:01:40.376324+05:30 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-03-31T13:01:40.464543+05:30 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-03-31T13:01:40.561972+05:30 rajesh systemd-logind[1256]: New session 2 of user rajesh.
+2025-03-31T13:01:40.701201+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-03-31T13:01:43.369434+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T13:01:46.511647+05:30 rajesh gnome-keyring-daemon[2214]: The Secret Service was already initialized
+2025-03-31T13:01:46.518893+05:30 rajesh gnome-keyring-daemon[2430]: discover_other_daemon: 1
+2025-03-31T13:01:46.523852+05:30 rajesh gnome-keyring-daemon[2429]: discover_other_daemon: 1
+2025-03-31T13:01:46.543616+05:30 rajesh gnome-keyring-daemon[2214]: The PKCS#11 component was already initialized
+2025-03-31T13:01:46.547707+05:30 rajesh gnome-keyring-daemon[2437]: discover_other_daemon: 1
+2025-03-31T13:01:57.337466+05:30 rajesh polkitd[1247]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-03-31T13:02:09.065335+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-03-31T13:02:09.127909+05:30 rajesh systemd-logind[1256]: Session c1 logged out. Waiting for processes to exit.
+2025-03-31T13:02:09.525833+05:30 rajesh polkitd[1247]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-03-31T13:02:09.974509+05:30 rajesh systemd-logind[1256]: Removed session c1.
+2025-03-31T13:02:20.974223+05:30 rajesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-03-31T13:03:06.410790+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T13:03:06.421786+05:30 rajesh pkexec[3547]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-31T13:05:02.021552+05:30 rajesh CRON[3574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:05:02.066861+05:30 rajesh CRON[3574]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:15:01.086510+05:30 rajesh CRON[3917]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:15:01.095358+05:30 rajesh CRON[3917]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:17:01.115607+05:30 rajesh CRON[3933]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:17:01.239314+05:30 rajesh CRON[3933]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:25:01.603748+05:30 rajesh CRON[4010]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:25:01.622939+05:30 rajesh CRON[4010]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:30:01.643806+05:30 rajesh CRON[4024]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:30:01.650719+05:30 rajesh CRON[4024]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:35:01.846120+05:30 rajesh CRON[4052]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:35:01.863359+05:30 rajesh CRON[4052]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:42:17.341659+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T13:45:01.894433+05:30 rajesh CRON[4174]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:45:01.903984+05:30 rajesh CRON[4174]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:52:14.806044+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T13:55:01.928208+05:30 rajesh CRON[4447]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T13:55:01.938105+05:30 rajesh CRON[4447]: pam_unix(cron:session): session closed for user root
+2025-03-31T13:59:37.120416+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T14:05:01.980838+05:30 rajesh CRON[4583]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:05:01.996211+05:30 rajesh CRON[4583]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:11:42.417593+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): conversation failed
+2025-03-31T14:11:42.420912+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [rajesh]
+2025-03-31T14:15:01.014626+05:30 rajesh CRON[4647]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:15:01.021442+05:30 rajesh CRON[4647]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:17:01.044433+05:30 rajesh CRON[4651]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:17:01.059969+05:30 rajesh CRON[4651]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:25:01.093464+05:30 rajesh CRON[4662]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:25:01.112559+05:30 rajesh CRON[4662]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:30:01.134873+05:30 rajesh CRON[4677]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:30:01.160166+05:30 rajesh CRON[4677]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:35:01.189900+05:30 rajesh CRON[4686]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:35:01.204128+05:30 rajesh CRON[4686]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:43:24.193573+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T14:45:01.222482+05:30 rajesh CRON[4793]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:45:01.225492+05:30 rajesh CRON[4793]: pam_unix(cron:session): session closed for user root
+2025-03-31T14:55:01.247840+05:30 rajesh CRON[4827]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T14:55:01.260108+05:30 rajesh CRON[4827]: pam_unix(cron:session): session closed for user root
+2025-03-31T15:33:37.126090+05:30 rajesh CRON[4935]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T15:33:37.468944+05:30 rajesh CRON[4935]: pam_unix(cron:session): session closed for user root
+2025-03-31T15:35:01.493651+05:30 rajesh CRON[4949]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T15:35:01.500635+05:30 rajesh CRON[4949]: pam_unix(cron:session): session closed for user root
+2025-03-31T15:35:39.754235+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T15:45:01.631556+05:30 rajesh CRON[5056]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T15:45:01.644829+05:30 rajesh CRON[5056]: pam_unix(cron:session): session closed for user root
+2025-03-31T15:55:01.729856+05:30 rajesh CRON[5103]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T15:55:01.744638+05:30 rajesh CRON[5103]: pam_unix(cron:session): session closed for user root
+2025-03-31T15:56:29.358403+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T16:05:01.831178+05:30 rajesh CRON[5236]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T16:05:01.846582+05:30 rajesh CRON[5236]: pam_unix(cron:session): session closed for user root
+2025-03-31T17:36:24.721362+05:30 rajesh CRON[5285]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T17:36:24.724448+05:30 rajesh CRON[5285]: pam_unix(cron:session): session closed for user root
+2025-03-31T17:36:24.728072+05:30 rajesh CRON[5287]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T17:36:24.730957+05:30 rajesh CRON[5287]: pam_unix(cron:session): session closed for user root
+2025-03-31T17:36:45.863269+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T17:45:01.800811+05:30 rajesh CRON[5435]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T17:45:01.814654+05:30 rajesh CRON[5435]: pam_unix(cron:session): session closed for user root
+2025-03-31T17:55:01.928154+05:30 rajesh CRON[5526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T17:55:01.941846+05:30 rajesh CRON[5526]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:05:02.013011+05:30 rajesh CRON[5618]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:05:02.025398+05:30 rajesh CRON[5618]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:16:59.172061+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T18:16:59.173882+05:30 rajesh pkexec[6147]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-31T18:17:01.067452+05:30 rajesh CRON[6156]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:17:01.086809+05:30 rajesh CRON[6156]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:25:01.571578+05:30 rajesh CRON[6180]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:25:01.584469+05:30 rajesh CRON[6180]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:30:01.629409+05:30 rajesh CRON[6189]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:30:01.742101+05:30 rajesh CRON[6189]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:35:01.802139+05:30 rajesh CRON[6205]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:35:01.818865+05:30 rajesh CRON[6205]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:37:33.872231+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T18:43:56.072045+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/mv Introduction.txt /topic
+2025-03-31T18:43:56.179341+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T18:43:56.191266+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-31T18:44:30.938965+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/mv hello_world.sh /scripts
+2025-03-31T18:44:30.941108+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T18:44:30.948907+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-31T18:45:01.935180+05:30 rajesh CRON[6361]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:45:01.950289+05:30 rajesh CRON[6361]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:55:01.134119+05:30 rajesh CRON[6394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T18:55:01.143349+05:30 rajesh CRON[6394]: pam_unix(cron:session): session closed for user root
+2025-03-31T18:58:29.809344+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/mv hello_world.sh /scripts/hello_world.sh
+2025-03-31T18:58:29.813836+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T18:58:29.825600+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-31T18:59:24.971528+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt install tree
+2025-03-31T18:59:24.977547+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T18:59:41.847580+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-03-31T19:02:06.908637+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-03-31T19:02:06.915257+05:30 rajesh pkexec[6669]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-03-31T19:05:01.214014+05:30 rajesh CRON[6720]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:05:01.233022+05:30 rajesh CRON[6720]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:15:01.303358+05:30 rajesh CRON[6791]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:15:01.317008+05:30 rajesh CRON[6791]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:17:01.344575+05:30 rajesh CRON[6810]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:17:01.349428+05:30 rajesh CRON[6810]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:25:01.373784+05:30 rajesh CRON[6830]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:25:01.386878+05:30 rajesh CRON[6830]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:30:01.467423+05:30 rajesh CRON[6837]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:30:01.481376+05:30 rajesh CRON[6837]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:35:01.561974+05:30 rajesh CRON[6852]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:35:01.571865+05:30 rajesh CRON[6852]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:45:01.624338+05:30 rajesh CRON[6864]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:45:01.632382+05:30 rajesh CRON[6864]: pam_unix(cron:session): session closed for user root
+2025-03-31T19:55:01.751110+05:30 rajesh CRON[6882]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T19:55:01.766125+05:30 rajesh CRON[6882]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:05:01.836957+05:30 rajesh CRON[6900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:05:01.840602+05:30 rajesh CRON[6900]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:10:40.360898+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T20:15:01.920827+05:30 rajesh CRON[7008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:15:01.935542+05:30 rajesh CRON[7008]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:17:01.970200+05:30 rajesh CRON[7026]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:17:01.982878+05:30 rajesh CRON[7026]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:25:01.040790+05:30 rajesh CRON[7048]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:25:01.052755+05:30 rajesh CRON[7048]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:30:01.107136+05:30 rajesh CRON[7055]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:30:01.120242+05:30 rajesh CRON[7055]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:35:01.156056+05:30 rajesh CRON[7080]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:35:01.169733+05:30 rajesh CRON[7080]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:45:01.240751+05:30 rajesh CRON[7100]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:45:01.245442+05:30 rajesh CRON[7100]: pam_unix(cron:session): session closed for user root
+2025-03-31T20:55:01.343063+05:30 rajesh CRON[7122]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T20:55:01.713033+05:30 rajesh CRON[7122]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:05:01.813558+05:30 rajesh CRON[7198]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:05:01.825996+05:30 rajesh CRON[7198]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:15:01.888199+05:30 rajesh CRON[7211]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:15:02.008809+05:30 rajesh CRON[7211]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:17:01.047767+05:30 rajesh CRON[7223]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:17:01.060701+05:30 rajesh CRON[7223]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:25:01.131080+05:30 rajesh CRON[7234]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:25:01.148384+05:30 rajesh CRON[7234]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:33:02.824051+05:30 rajesh CRON[7270]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:33:02.826112+05:30 rajesh CRON[7270]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:35:01.847464+05:30 rajesh CRON[7273]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:35:01.861468+05:30 rajesh CRON[7273]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:45:01.934282+05:30 rajesh CRON[7287]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:45:01.942955+05:30 rajesh CRON[7287]: pam_unix(cron:session): session closed for user root
+2025-03-31T21:55:01.038553+05:30 rajesh CRON[7306]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T21:55:01.053517+05:30 rajesh CRON[7306]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:05:01.158370+05:30 rajesh CRON[7323]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:05:01.171035+05:30 rajesh CRON[7323]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:12:04.925847+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T22:15:01.267542+05:30 rajesh CRON[7465]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:15:01.279931+05:30 rajesh CRON[7465]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:17:01.309496+05:30 rajesh CRON[7472]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:17:01.322982+05:30 rajesh CRON[7472]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:25:01.409664+05:30 rajesh CRON[7496]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:25:01.425459+05:30 rajesh CRON[7496]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:30:01.500445+05:30 rajesh CRON[7514]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:30:01.609135+05:30 rajesh CRON[7514]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:35:01.567568+05:30 rajesh CRON[7532]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:35:01.930015+05:30 rajesh CRON[7532]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:45:02.002033+05:30 rajesh CRON[7564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:45:02.005844+05:30 rajesh CRON[7564]: pam_unix(cron:session): session closed for user root
+2025-03-31T22:54:43.836157+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-03-31T22:55:01.087908+05:30 rajesh CRON[7662]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T22:55:01.205481+05:30 rajesh CRON[7662]: pam_unix(cron:session): session closed for user root
+2025-03-31T23:05:01.272004+05:30 rajesh CRON[7712]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T23:05:01.377712+05:30 rajesh CRON[7712]: pam_unix(cron:session): session closed for user root
+2025-03-31T23:15:01.476987+05:30 rajesh CRON[7912]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T23:15:01.495151+05:30 rajesh CRON[7912]: pam_unix(cron:session): session closed for user root
+2025-03-31T23:17:01.525198+05:30 rajesh CRON[7927]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T23:17:01.539524+05:30 rajesh CRON[7927]: pam_unix(cron:session): session closed for user root
+2025-03-31T23:25:01.725768+05:30 rajesh CRON[7983]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T23:25:01.739504+05:30 rajesh CRON[7983]: pam_unix(cron:session): session closed for user root
+2025-03-31T23:30:01.764340+05:30 rajesh CRON[8008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-31T23:30:02.134363+05:30 rajesh CRON[8008]: pam_unix(cron:session): session closed for user root
+2025-04-01T13:20:37.364428+05:30 rajesh systemd-logind[1269]: New seat seat0.
+2025-04-01T13:20:37.364437+05:30 rajesh systemd-logind[1269]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-04-01T13:20:37.364529+05:30 rajesh systemd-logind[1269]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-04-01T13:20:37.427233+05:30 rajesh polkitd[1247]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-01T13:20:37.493979+05:30 rajesh polkitd[1247]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-01T13:20:38.496018+05:30 rajesh polkitd[1247]: Finished loading, compiling and executing 16 rules
+2025-04-01T13:20:38.514808+05:30 rajesh polkitd[1247]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-04-01T13:20:50.223652+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-04-01T13:20:50.255373+05:30 rajesh systemd-logind[1269]: New session c1 of user gdm.
+2025-04-01T13:20:50.436519+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-04-01T13:21:06.349179+05:30 rajesh polkitd[1247]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-01T13:25:01.956522+05:30 rajesh CRON[2162]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T13:25:01.980950+05:30 rajesh CRON[2162]: pam_unix(cron:session): session closed for user root
+2025-04-01T13:30:01.991229+05:30 rajesh CRON[2341]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T13:30:01.997987+05:30 rajesh CRON[2341]: pam_unix(cron:session): session closed for user root
+2025-04-01T13:35:02.020479+05:30 rajesh CRON[2350]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T13:35:02.038473+05:30 rajesh CRON[2350]: pam_unix(cron:session): session closed for user root
+2025-04-01T13:43:53.760566+05:30 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-04-01T13:43:53.761090+05:30 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-04-01T13:43:53.798853+05:30 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-01T13:43:53.853075+05:30 rajesh systemd-logind[1269]: New session 5 of user rajesh.
+2025-04-01T13:43:53.948690+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-01T13:43:55.152280+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T13:43:57.034550+05:30 rajesh gnome-keyring-daemon[2418]: The Secret Service was already initialized
+2025-04-01T13:43:57.035795+05:30 rajesh gnome-keyring-daemon[2622]: discover_other_daemon: 1
+2025-04-01T13:43:57.061945+05:30 rajesh gnome-keyring-daemon[2418]: The PKCS#11 component was already initialized
+2025-04-01T13:43:57.062496+05:30 rajesh gnome-keyring-daemon[2626]: discover_other_daemon: 1
+2025-04-01T13:43:57.063374+05:30 rajesh gnome-keyring-daemon[2629]: discover_other_daemon: 1
+2025-04-01T13:44:03.896922+05:30 rajesh polkitd[1247]: Registered Authentication Agent for unix-session:5 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-01T13:44:07.316070+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-04-01T13:44:07.347690+05:30 rajesh systemd-logind[1269]: Session c1 logged out. Waiting for processes to exit.
+2025-04-01T13:44:07.438843+05:30 rajesh polkitd[1247]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-04-01T13:44:07.458059+05:30 rajesh systemd-logind[1269]: Removed session c1.
+2025-04-01T13:44:17.707436+05:30 rajesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-04-01T13:45:01.080041+05:30 rajesh CRON[3802]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T13:45:01.104086+05:30 rajesh CRON[3802]: pam_unix(cron:session): session closed for user root
+2025-04-01T13:45:08.745566+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-01T13:45:08.748134+05:30 rajesh pkexec[3831]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-01T13:55:01.134283+05:30 rajesh CRON[4063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T13:55:01.147634+05:30 rajesh CRON[4063]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:05:01.176704+05:30 rajesh CRON[4120]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:05:01.187682+05:30 rajesh CRON[4120]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:15:01.218570+05:30 rajesh CRON[4170]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:15:01.234642+05:30 rajesh CRON[4170]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:17:01.243412+05:30 rajesh CRON[4310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:17:01.283526+05:30 rajesh CRON[4310]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:25:01.294309+05:30 rajesh CRON[4328]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:25:01.297532+05:30 rajesh CRON[4328]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:30:01.313293+05:30 rajesh CRON[4333]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:30:01.321828+05:30 rajesh CRON[4333]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:35:01.351497+05:30 rajesh CRON[4343]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:35:01.368134+05:30 rajesh CRON[4343]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:45:01.391646+05:30 rajesh CRON[4374]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:45:01.404184+05:30 rajesh CRON[4374]: pam_unix(cron:session): session closed for user root
+2025-04-01T14:55:01.421764+05:30 rajesh CRON[4393]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T14:55:01.430069+05:30 rajesh CRON[4393]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:05:01.458942+05:30 rajesh CRON[4473]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:05:01.476794+05:30 rajesh CRON[4473]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:15:01.515965+05:30 rajesh CRON[4493]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:15:01.528420+05:30 rajesh CRON[4493]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:17:01.909014+05:30 rajesh CRON[4504]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:17:01.926764+05:30 rajesh CRON[4504]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:25:01.947053+05:30 rajesh CRON[4519]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:25:01.959165+05:30 rajesh CRON[4519]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:30:01.990267+05:30 rajesh CRON[4528]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:30:02.001396+05:30 rajesh CRON[4528]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:35:01.029849+05:30 rajesh CRON[4537]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:35:01.046173+05:30 rajesh CRON[4537]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:45:01.076198+05:30 rajesh CRON[4556]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:45:01.094782+05:30 rajesh CRON[4556]: pam_unix(cron:session): session closed for user root
+2025-04-01T15:55:01.125460+05:30 rajesh CRON[4575]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T15:55:01.140621+05:30 rajesh CRON[4575]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:05:01.168862+05:30 rajesh CRON[4586]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:05:01.185847+05:30 rajesh CRON[4586]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:15:01.219171+05:30 rajesh CRON[4608]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:15:01.236154+05:30 rajesh CRON[4608]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:17:01.258841+05:30 rajesh CRON[4611]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:17:01.275919+05:30 rajesh CRON[4611]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:25:01.318365+05:30 rajesh CRON[4635]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:25:01.334747+05:30 rajesh CRON[4635]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:30:01.358550+05:30 rajesh CRON[4643]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:30:01.367169+05:30 rajesh CRON[4643]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:35:01.766854+05:30 rajesh CRON[4652]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:35:01.776417+05:30 rajesh CRON[4652]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:45:01.802065+05:30 rajesh CRON[4678]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:45:01.816272+05:30 rajesh CRON[4678]: pam_unix(cron:session): session closed for user root
+2025-04-01T16:55:01.836518+05:30 rajesh CRON[4698]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T16:55:01.841976+05:30 rajesh CRON[4698]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:05:01.853604+05:30 rajesh CRON[4710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:05:01.856966+05:30 rajesh CRON[4710]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:15:01.892537+05:30 rajesh CRON[4729]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:15:01.910063+05:30 rajesh CRON[4729]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:17:01.934999+05:30 rajesh CRON[4734]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:17:01.951692+05:30 rajesh CRON[4734]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:25:01.982041+05:30 rajesh CRON[4748]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:25:02.339143+05:30 rajesh CRON[4748]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:30:01.365760+05:30 rajesh CRON[4761]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:30:01.479230+05:30 rajesh CRON[4761]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:35:01.507709+05:30 rajesh CRON[4772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:35:01.525990+05:30 rajesh CRON[4772]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:45:01.560390+05:30 rajesh CRON[4790]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:45:01.576057+05:30 rajesh CRON[4790]: pam_unix(cron:session): session closed for user root
+2025-04-01T17:55:01.741908+05:30 rajesh CRON[4808]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T17:55:01.801116+05:30 rajesh CRON[4808]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:05:01.826810+05:30 rajesh CRON[4877]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:05:01.844766+05:30 rajesh CRON[4877]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:15:01.873287+05:30 rajesh CRON[4899]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:15:01.880745+05:30 rajesh CRON[4899]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:17:01.905525+05:30 rajesh CRON[4911]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:17:01.920935+05:30 rajesh CRON[4911]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:25:01.954280+05:30 rajesh CRON[4928]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:25:01.966795+05:30 rajesh CRON[4928]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:30:01.993693+05:30 rajesh CRON[4938]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:30:02.006733+05:30 rajesh CRON[4938]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:35:01.039346+05:30 rajesh CRON[4947]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:35:01.157614+05:30 rajesh CRON[4947]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:45:01.186821+05:30 rajesh CRON[4966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:45:01.198721+05:30 rajesh CRON[4966]: pam_unix(cron:session): session closed for user root
+2025-04-01T18:55:01.234813+05:30 rajesh CRON[4984]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T18:55:01.252674+05:30 rajesh CRON[4984]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:05:01.281375+05:30 rajesh CRON[4996]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:05:01.299791+05:30 rajesh CRON[4996]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:15:01.330455+05:30 rajesh CRON[5017]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:15:01.347843+05:30 rajesh CRON[5017]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:17:01.440752+05:30 rajesh CRON[5036]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:17:01.621038+05:30 rajesh CRON[5036]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:17:08.492823+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T19:23:22.542988+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T19:25:02.003990+05:30 rajesh CRON[5421]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:25:02.019609+05:30 rajesh CRON[5421]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:30:01.031264+05:30 rajesh CRON[5438]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:30:01.034559+05:30 rajesh CRON[5438]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:33:54.365948+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T19:35:01.057250+05:30 rajesh CRON[5536]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:35:01.065584+05:30 rajesh CRON[5536]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:45:01.090397+05:30 rajesh CRON[5578]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:45:01.106611+05:30 rajesh CRON[5578]: pam_unix(cron:session): session closed for user root
+2025-04-01T19:55:01.118090+05:30 rajesh CRON[5621]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T19:55:01.122590+05:30 rajesh CRON[5621]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:02:52.597665+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T20:05:01.144409+05:30 rajesh CRON[5733]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:05:01.167685+05:30 rajesh CRON[5733]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:15:01.200323+05:30 rajesh CRON[5876]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:15:01.214915+05:30 rajesh CRON[5876]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:17:01.224953+05:30 rajesh CRON[5928]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:17:01.230128+05:30 rajesh CRON[5928]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:25:01.257323+05:30 rajesh CRON[6009]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:25:01.277612+05:30 rajesh CRON[6009]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:30:01.303278+05:30 rajesh CRON[6112]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:30:01.311972+05:30 rajesh CRON[6112]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:35:01.336727+05:30 rajesh CRON[6136]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:35:01.354143+05:30 rajesh CRON[6136]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:45:01.381038+05:30 rajesh CRON[6163]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:45:01.394256+05:30 rajesh CRON[6163]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:47:28.253843+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): conversation failed
+2025-04-01T20:47:28.256734+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [rajesh]
+2025-04-01T20:55:01.420113+05:30 rajesh CRON[6208]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T20:55:01.432952+05:30 rajesh CRON[6208]: pam_unix(cron:session): session closed for user root
+2025-04-01T20:56:37.033506+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T21:05:01.458634+05:30 rajesh CRON[6394]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:05:01.471381+05:30 rajesh CRON[6394]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:08:19.652787+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T21:15:01.499195+05:30 rajesh CRON[6514]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:15:01.513688+05:30 rajesh CRON[6514]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:17:01.534276+05:30 rajesh CRON[6521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:17:01.550143+05:30 rajesh CRON[6521]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:25:41.110450+05:30 rajesh CRON[6586]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:25:41.556984+05:30 rajesh CRON[6586]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:27:23.092499+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-01T21:27:23.438562+05:30 rajesh pkexec[6981]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-01T21:45:27.637542+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-01T21:45:48.831548+05:30 rajesh CRON[7212]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:45:48.833991+05:30 rajesh CRON[7212]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:45:48.837247+05:30 rajesh CRON[7215]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:45:48.839249+05:30 rajesh CRON[7215]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:55:01.936028+05:30 rajesh CRON[7395]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T21:55:01.950788+05:30 rajesh CRON[7395]: pam_unix(cron:session): session closed for user root
+2025-04-01T21:57:29.740222+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-01T21:57:29.785442+05:30 rajesh pkexec[7415]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-01T22:05:01.043985+05:30 rajesh CRON[7507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T22:05:01.072041+05:30 rajesh CRON[7507]: pam_unix(cron:session): session closed for user root
+2025-04-01T22:15:01.820587+05:30 rajesh CRON[7566]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T22:15:01.857989+05:30 rajesh CRON[7566]: pam_unix(cron:session): session closed for user root
+2025-04-01T22:17:01.886537+05:30 rajesh CRON[7575]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T22:17:01.901304+05:30 rajesh CRON[7575]: pam_unix(cron:session): session closed for user root
+2025-04-01T22:25:01.066025+05:30 rajesh CRON[7609]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T22:25:01.072159+05:30 rajesh CRON[7609]: pam_unix(cron:session): session closed for user root
+2025-04-01T22:30:01.135630+05:30 rajesh CRON[7632]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T22:30:01.265577+05:30 rajesh CRON[7632]: pam_unix(cron:session): session closed for user root
+2025-04-01T22:35:01.328172+05:30 rajesh CRON[7650]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-01T22:35:01.347531+05:30 rajesh CRON[7650]: pam_unix(cron:session): session closed for user root
+2025-04-01T22:38:39.028941+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T13:08:18.656564+05:30 rajesh systemd-logind[1269]: New seat seat0.
+2025-04-02T13:08:18.656854+05:30 rajesh systemd-logind[1269]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-04-02T13:08:18.656885+05:30 rajesh systemd-logind[1269]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-04-02T13:08:18.659082+05:30 rajesh polkitd[1257]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-02T13:08:18.659096+05:30 rajesh polkitd[1257]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-02T13:08:18.659111+05:30 rajesh polkitd[1257]: Finished loading, compiling and executing 16 rules
+2025-04-02T13:08:18.659307+05:30 rajesh polkitd[1257]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-04-02T13:08:28.884415+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-04-02T13:08:29.028183+05:30 rajesh systemd-logind[1269]: New session c1 of user gdm.
+2025-04-02T13:08:29.334511+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-04-02T13:08:47.429526+05:30 rajesh polkitd[1257]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-02T13:08:55.321110+05:30 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-04-02T13:08:55.321379+05:30 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-04-02T13:08:55.366813+05:30 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-02T13:08:55.439973+05:30 rajesh systemd-logind[1269]: New session 2 of user rajesh.
+2025-04-02T13:08:55.538393+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-02T13:08:56.801817+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T13:08:58.991440+05:30 rajesh gnome-keyring-daemon[2347]: discover_other_daemon: 1
+2025-04-02T13:08:59.010694+05:30 rajesh gnome-keyring-daemon[2143]: The Secret Service was already initialized
+2025-04-02T13:08:59.011448+05:30 rajesh gnome-keyring-daemon[2352]: discover_other_daemon: 1
+2025-04-02T13:08:59.015575+05:30 rajesh gnome-keyring-daemon[2143]: The PKCS#11 component was already initialized
+2025-04-02T13:08:59.016079+05:30 rajesh gnome-keyring-daemon[2353]: discover_other_daemon: 1
+2025-04-02T13:09:05.035388+05:30 rajesh polkitd[1257]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-02T13:09:09.233103+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-04-02T13:09:09.314202+05:30 rajesh systemd-logind[1269]: Session c1 logged out. Waiting for processes to exit.
+2025-04-02T13:09:09.348668+05:30 rajesh polkitd[1257]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-04-02T13:09:09.376955+05:30 rajesh systemd-logind[1269]: Removed session c1.
+2025-04-02T13:09:19.795650+05:30 rajesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-04-02T13:10:08.895656+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T13:10:08.898890+05:30 rajesh pkexec[3368]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-02T13:15:02.197331+05:30 rajesh CRON[3473]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:15:02.225167+05:30 rajesh CRON[3473]: pam_unix(cron:session): session closed for user root
+2025-04-02T13:17:01.243622+05:30 rajesh CRON[3489]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:17:01.259098+05:30 rajesh CRON[3489]: pam_unix(cron:session): session closed for user root
+2025-04-02T13:25:01.286501+05:30 rajesh CRON[3511]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:25:01.299199+05:30 rajesh CRON[3511]: pam_unix(cron:session): session closed for user root
+2025-04-02T13:30:01.322241+05:30 rajesh CRON[3916]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:30:01.331300+05:30 rajesh CRON[3916]: pam_unix(cron:session): session closed for user root
+2025-04-02T13:31:04.450191+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T13:31:04.451823+05:30 rajesh pkexec[3928]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-02T13:34:45.539645+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T13:35:01.367151+05:30 rajesh CRON[4057]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:35:01.382625+05:30 rajesh CRON[4057]: pam_unix(cron:session): session closed for user root
+2025-04-02T13:45:01.409396+05:30 rajesh CRON[4091]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:45:01.419055+05:30 rajesh CRON[4091]: pam_unix(cron:session): session closed for user root
+2025-04-02T13:55:01.446533+05:30 rajesh CRON[4132]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T13:55:01.462420+05:30 rajesh CRON[4132]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:02:52.379292+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T14:05:01.487053+05:30 rajesh CRON[4317]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:05:01.499858+05:30 rajesh CRON[4317]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:12:53.104373+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): conversation failed
+2025-04-02T14:12:53.104775+05:30 rajesh gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [rajesh]
+2025-04-02T14:15:01.525452+05:30 rajesh CRON[4428]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:15:01.536182+05:30 rajesh CRON[4428]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:17:01.557902+05:30 rajesh CRON[4431]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:17:01.572307+05:30 rajesh CRON[4431]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:25:01.603254+05:30 rajesh CRON[4449]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:25:01.617415+05:30 rajesh CRON[4449]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:30:01.639427+05:30 rajesh CRON[4455]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:30:01.646319+05:30 rajesh CRON[4455]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:35:01.675747+05:30 rajesh CRON[4463]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:35:01.695715+05:30 rajesh CRON[4463]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:45:01.715636+05:30 rajesh CRON[4480]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:45:01.720830+05:30 rajesh CRON[4480]: pam_unix(cron:session): session closed for user root
+2025-04-02T14:55:01.753684+05:30 rajesh CRON[4499]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T14:55:01.774929+05:30 rajesh CRON[4499]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:05:01.800912+05:30 rajesh CRON[4576]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:05:01.811482+05:30 rajesh CRON[4576]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:15:01.847964+05:30 rajesh CRON[4595]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:15:01.869371+05:30 rajesh CRON[4595]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:17:01.893804+05:30 rajesh CRON[4599]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:17:01.911398+05:30 rajesh CRON[4599]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:25:01.938120+05:30 rajesh CRON[4615]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:25:01.953283+05:30 rajesh CRON[4615]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:30:01.982186+05:30 rajesh CRON[4622]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:30:01.991234+05:30 rajesh CRON[4622]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:35:02.010676+05:30 rajesh CRON[4630]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:35:02.376020+05:30 rajesh CRON[4630]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:45:01.408865+05:30 rajesh CRON[4655]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:45:01.424733+05:30 rajesh CRON[4655]: pam_unix(cron:session): session closed for user root
+2025-04-02T15:55:01.442040+05:30 rajesh CRON[4677]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T15:55:01.450083+05:30 rajesh CRON[4677]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:05:01.481200+05:30 rajesh CRON[4689]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:05:01.492232+05:30 rajesh CRON[4689]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:15:01.526976+05:30 rajesh CRON[4706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:15:01.885699+05:30 rajesh CRON[4706]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:17:01.907901+05:30 rajesh CRON[4710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:17:01.919973+05:30 rajesh CRON[4710]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:25:01.944898+05:30 rajesh CRON[4726]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:25:01.960033+05:30 rajesh CRON[4726]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:27:29.620166+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T16:30:01.109823+05:30 rajesh CRON[4922]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:30:01.119499+05:30 rajesh CRON[4922]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:35:01.381006+05:30 rajesh CRON[4941]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:35:01.396199+05:30 rajesh CRON[4941]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:45:01.424897+05:30 rajesh CRON[4976]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:45:01.442886+05:30 rajesh CRON[4976]: pam_unix(cron:session): session closed for user root
+2025-04-02T16:55:01.476541+05:30 rajesh CRON[4994]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T16:55:01.491317+05:30 rajesh CRON[4994]: pam_unix(cron:session): session closed for user root
+2025-04-02T17:05:01.524139+05:30 rajesh CRON[5003]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T17:05:01.538917+05:30 rajesh CRON[5003]: pam_unix(cron:session): session closed for user root
+2025-04-02T18:28:18.774264+05:30 rajesh CRON[5140]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T18:28:19.056648+05:30 rajesh CRON[5140]: pam_unix(cron:session): session closed for user root
+2025-04-02T18:28:19.452374+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T18:30:01.796799+05:30 rajesh CRON[5698]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T18:30:01.918782+05:30 rajesh CRON[5698]: pam_unix(cron:session): session closed for user root
+2025-04-02T18:30:21.929115+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T18:30:21.949809+05:30 rajesh pkexec[5709]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-02T18:35:01.871831+05:30 rajesh CRON[5735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T18:35:01.881282+05:30 rajesh CRON[5735]: pam_unix(cron:session): session closed for user root
+2025-04-02T18:45:01.996655+05:30 rajesh CRON[5763]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T18:45:02.010817+05:30 rajesh CRON[5763]: pam_unix(cron:session): session closed for user root
+2025-04-02T18:55:01.119817+05:30 rajesh CRON[5779]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T18:55:01.133195+05:30 rajesh CRON[5779]: pam_unix(cron:session): session closed for user root
+2025-04-02T19:05:01.256520+05:30 rajesh CRON[5808]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T19:05:01.383173+05:30 rajesh CRON[5808]: pam_unix(cron:session): session closed for user root
+2025-04-02T19:15:01.423498+05:30 rajesh CRON[5825]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T19:15:01.435898+05:30 rajesh CRON[5825]: pam_unix(cron:session): session closed for user root
+2025-04-02T19:17:01.479090+05:30 rajesh CRON[5830]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T19:17:01.495095+05:30 rajesh CRON[5830]: pam_unix(cron:session): session closed for user root
+2025-04-02T19:40:35.381680+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T19:40:50.023717+05:30 rajesh CRON[5943]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T19:40:50.027689+05:30 rajesh CRON[5943]: pam_unix(cron:session): session closed for user root
+2025-04-02T19:41:53.637800+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-02T19:41:53.768361+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:42:05.283051+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-02T19:42:05.294048+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install -y htop
+2025-04-02T19:42:05.295463+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:42:25.261034+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-02T19:43:09.658217+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:43:09.663906+05:30 rajesh pkexec[6382]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-02T19:43:50.989168+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-02T19:43:50.991499+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:43:57.206401+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-02T19:43:57.257424+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install -y htop
+2025-04-02T19:43:57.261832+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:43:58.500538+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-02T19:44:07.393049+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-02T19:44:07.395745+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:44:11.210750+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-02T19:44:11.224870+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install -y htop
+2025-04-02T19:44:11.226673+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:44:12.574456+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-02T19:45:01.089978+05:30 rajesh CRON[7110]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T19:45:01.100307+05:30 rajesh CRON[7110]: pam_unix(cron:session): session closed for user root
+2025-04-02T19:46:09.360883+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-02T19:46:09.366370+05:30 rajesh pkexec[7128]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-02T19:55:01.185947+05:30 rajesh CRON[7150]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T19:55:01.194329+05:30 rajesh CRON[7150]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:05:01.313741+05:30 rajesh CRON[7188]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:05:01.326908+05:30 rajesh CRON[7188]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:08:12.965072+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T20:15:01.426083+05:30 rajesh CRON[7287]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:15:01.430826+05:30 rajesh CRON[7287]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:17:01.465503+05:30 rajesh CRON[7291]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:17:01.479413+05:30 rajesh CRON[7291]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:25:01.557307+05:30 rajesh CRON[7302]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:25:01.565321+05:30 rajesh CRON[7302]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:30:01.610939+05:30 rajesh CRON[7314]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:30:01.617927+05:30 rajesh CRON[7314]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:35:01.691569+05:30 rajesh CRON[7323]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:35:01.697597+05:30 rajesh CRON[7323]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:35:52.158153+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T20:45:02.162081+05:30 rajesh CRON[7426]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:45:02.202019+05:30 rajesh CRON[7426]: pam_unix(cron:session): session closed for user root
+2025-04-02T20:55:01.666645+05:30 rajesh CRON[7451]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T20:55:01.692445+05:30 rajesh CRON[7451]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:05:02.094609+05:30 rajesh CRON[7529]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:05:02.111179+05:30 rajesh CRON[7529]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:15:01.282099+05:30 rajesh CRON[7557]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:15:01.659232+05:30 rajesh CRON[7557]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:17:01.673373+05:30 rajesh CRON[7562]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:17:02.122563+05:30 rajesh CRON[7562]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:18:31.650086+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-02T21:25:01.203857+05:30 rajesh CRON[7705]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:25:01.319557+05:30 rajesh CRON[7705]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:30:01.403473+05:30 rajesh CRON[7718]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:30:01.899729+05:30 rajesh CRON[7718]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:35:01.969033+05:30 rajesh CRON[7736]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:35:01.980671+05:30 rajesh CRON[7736]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:45:01.251292+05:30 rajesh CRON[7770]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-02T21:45:01.266497+05:30 rajesh CRON[7770]: pam_unix(cron:session): session closed for user root
+2025-04-02T21:54:31.421434+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T13:06:11.116421+05:30 rajesh systemd-logind[1366]: New seat seat0.
+2025-04-03T13:06:11.116504+05:30 rajesh systemd-logind[1366]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-04-03T13:06:11.116552+05:30 rajesh systemd-logind[1366]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-04-03T13:06:11.358185+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T13:06:11.360180+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T13:06:11.902749+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T13:06:11.905565+05:30 rajesh polkitd[1347]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-04-03T13:06:21.375322+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-04-03T13:06:21.448590+05:30 rajesh systemd-logind[1366]: New session c1 of user gdm.
+2025-04-03T13:06:21.608887+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-04-03T13:06:37.620229+05:30 rajesh polkitd[1347]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-03T13:06:49.542619+05:30 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-04-03T13:06:49.543476+05:30 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-04-03T13:06:49.593040+05:30 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-03T13:06:49.654890+05:30 rajesh systemd-logind[1366]: New session 2 of user rajesh.
+2025-04-03T13:06:49.750814+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-03T13:06:50.681994+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T13:06:53.012746+05:30 rajesh gnome-keyring-daemon[2304]: The Secret Service was already initialized
+2025-04-03T13:06:53.014255+05:30 rajesh gnome-keyring-daemon[2501]: discover_other_daemon: 1
+2025-04-03T13:06:53.016633+05:30 rajesh gnome-keyring-daemon[2500]: discover_other_daemon: 1
+2025-04-03T13:06:53.022272+05:30 rajesh gnome-keyring-daemon[2304]: The PKCS#11 component was already initialized
+2025-04-03T13:06:53.023273+05:30 rajesh gnome-keyring-daemon[2502]: discover_other_daemon: 1
+2025-04-03T13:06:59.649367+05:30 rajesh polkitd[1347]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-03T13:07:04.168702+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-04-03T13:07:04.192353+05:30 rajesh systemd-logind[1366]: Session c1 logged out. Waiting for processes to exit.
+2025-04-03T13:07:04.276974+05:30 rajesh polkitd[1347]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-04-03T13:07:04.304330+05:30 rajesh systemd-logind[1366]: Removed session c1.
+2025-04-03T13:08:03.751074+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T13:08:03.758508+05:30 rajesh pkexec[3511]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-03T13:15:01.868598+05:30 rajesh CRON[3926]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:15:01.996755+05:30 rajesh CRON[3926]: pam_unix(cron:session): session closed for user root
+2025-04-03T13:17:02.028225+05:30 rajesh CRON[3956]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:17:02.056851+05:30 rajesh CRON[3956]: pam_unix(cron:session): session closed for user root
+2025-04-03T13:25:01.122902+05:30 rajesh CRON[4041]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:25:01.131736+05:30 rajesh CRON[4041]: pam_unix(cron:session): session closed for user root
+2025-04-03T13:30:01.148447+05:30 rajesh CRON[4056]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:30:01.155299+05:30 rajesh CRON[4056]: pam_unix(cron:session): session closed for user root
+2025-04-03T13:35:01.195126+05:30 rajesh CRON[4068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:35:01.201199+05:30 rajesh CRON[4068]: pam_unix(cron:session): session closed for user root
+2025-04-03T13:37:59.394806+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T13:37:59.397045+05:30 rajesh pkexec[4396]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-03T13:45:01.213354+05:30 rajesh CRON[4414]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:45:01.217055+05:30 rajesh CRON[4414]: pam_unix(cron:session): session closed for user root
+2025-04-03T13:55:01.227999+05:30 rajesh CRON[4562]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T13:55:01.231735+05:30 rajesh CRON[4562]: pam_unix(cron:session): session closed for user root
+2025-04-03T14:05:01.262392+05:30 rajesh CRON[4605]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T14:05:01.275213+05:30 rajesh CRON[4605]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:14:25.183665+05:30 rajesh CRON[4724]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:14:25.546158+05:30 rajesh CRON[4724]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:14:25.751387+05:30 rajesh CRON[4726]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:14:26.032890+05:30 rajesh CRON[4726]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:15:01.022933+05:30 rajesh CRON[4729]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:15:01.026233+05:30 rajesh CRON[4729]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:16:35.185880+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T16:17:01.058505+05:30 rajesh CRON[4820]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:17:01.071910+05:30 rajesh CRON[4820]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:25:01.151972+05:30 rajesh CRON[4999]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:25:01.167071+05:30 rajesh CRON[4999]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:30:01.418016+05:30 rajesh CRON[5036]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:30:01.439118+05:30 rajesh CRON[5036]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:35:01.498416+05:30 rajesh CRON[5068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:35:01.513267+05:30 rajesh CRON[5068]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:45:01.617641+05:30 rajesh CRON[5092]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:45:01.623197+05:30 rajesh CRON[5092]: pam_unix(cron:session): session closed for user root
+2025-04-03T16:50:12.477097+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T16:50:12.483345+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T16:50:14.008987+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T16:50:14.018953+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install doesnotexist
+2025-04-03T16:50:14.020246+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T16:50:14.913773+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T16:50:31.916649+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T16:50:31.919187+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T16:50:33.072123+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T16:50:33.083024+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install doesnotexist
+2025-04-03T16:50:33.084848+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T16:50:33.840636+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T16:55:01.720773+05:30 rajesh CRON[5257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T16:55:01.734600+05:30 rajesh CRON[5257]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:00:57.807954+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T17:00:57.810365+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:00:59.086159+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:01:30.069839+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T17:01:30.070726+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:01:31.407258+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:03:04.265433+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T17:03:04.267505+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:03:05.499234+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:05:01.819002+05:30 rajesh CRON[5447]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:05:01.833113+05:30 rajesh CRON[5447]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:12:40.977758+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T17:12:40.981006+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:12:42.160295+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:12:42.172384+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install notexist
+2025-04-03T17:12:42.173151+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:12:42.925854+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:15:01.943452+05:30 rajesh CRON[5608]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:15:02.046335+05:30 rajesh CRON[5608]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:15:24.781137+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install htop
+2025-04-03T17:15:24.784124+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:15:26.309992+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:15:26.322357+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash/scripts ; USER=root ; COMMAND=/usr/bin/apt install notexist
+2025-04-03T17:15:26.323922+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:15:27.114273+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T17:17:01.991436+05:30 rajesh CRON[5701]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:17:02.003508+05:30 rajesh CRON[5701]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:25:01.093800+05:30 rajesh CRON[5721]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:25:01.111127+05:30 rajesh CRON[5721]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:29:51.774686+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T17:30:01.193873+05:30 rajesh CRON[5835]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:30:01.203948+05:30 rajesh CRON[5835]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:30:23.409497+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T17:30:23.410492+05:30 rajesh pkexec[5852]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-03T17:35:01.258915+05:30 rajesh CRON[5869]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:35:01.272650+05:30 rajesh CRON[5869]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:45:01.366328+05:30 rajesh CRON[5897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:45:01.372605+05:30 rajesh CRON[5897]: pam_unix(cron:session): session closed for user root
+2025-04-03T17:55:01.478116+05:30 rajesh CRON[5911]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T17:55:01.497177+05:30 rajesh CRON[5911]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:05:42.508509+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T18:05:54.644092+05:30 rajesh CRON[6121]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:05:54.646788+05:30 rajesh CRON[6121]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:15:01.778698+05:30 rajesh CRON[6151]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:15:01.798334+05:30 rajesh CRON[6151]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:17:01.827688+05:30 rajesh CRON[6167]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:17:01.833008+05:30 rajesh CRON[6167]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:25:01.865771+05:30 rajesh CRON[6183]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:25:01.877750+05:30 rajesh CRON[6183]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:30:01.940580+05:30 rajesh CRON[6193]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:30:01.959827+05:30 rajesh CRON[6193]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:35:02.004549+05:30 rajesh CRON[6201]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:35:02.353926+05:30 rajesh CRON[6201]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:45:01.458589+05:30 rajesh CRON[6218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:45:01.469737+05:30 rajesh CRON[6218]: pam_unix(cron:session): session closed for user root
+2025-04-03T18:51:41.451249+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T18:55:01.581386+05:30 rajesh CRON[6320]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T18:55:01.595822+05:30 rajesh CRON[6320]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:05:26.200416+05:30 rajesh CRON[6808]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:05:26.202486+05:30 rajesh CRON[6808]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:05:40.325737+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T19:05:40.327328+05:30 rajesh pkexec[6960]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-03T19:05:42.402935+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T19:15:01.295512+05:30 rajesh CRON[7071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:15:01.304701+05:30 rajesh CRON[7071]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:16:21.663271+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-03T19:17:01.729151+05:30 rajesh CRON[7303]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:17:01.735093+05:30 rajesh CRON[7303]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:25:01.339075+05:30 rajesh CRON[7432]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:25:01.348528+05:30 rajesh CRON[7432]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:30:01.398702+05:30 rajesh CRON[7439]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:30:01.406296+05:30 rajesh CRON[7439]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:35:01.444701+05:30 rajesh CRON[7482]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:35:01.462740+05:30 rajesh CRON[7482]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:45:01.556771+05:30 rajesh CRON[7502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:45:01.576362+05:30 rajesh CRON[7502]: pam_unix(cron:session): session closed for user root
+2025-04-03T19:55:01.659070+05:30 rajesh CRON[7641]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T19:55:01.678021+05:30 rajesh CRON[7641]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:05:01.774732+05:30 rajesh CRON[7757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:05:01.790613+05:30 rajesh CRON[7757]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:15:01.876259+05:30 rajesh CRON[7846]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:15:01.890502+05:30 rajesh CRON[7846]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:17:01.939032+05:30 rajesh CRON[7862]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:17:01.955455+05:30 rajesh CRON[7862]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:25:01.026055+05:30 rajesh CRON[7969]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:25:01.028907+05:30 rajesh CRON[7969]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:30:01.089751+05:30 rajesh CRON[7978]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:30:01.099776+05:30 rajesh CRON[7978]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:35:01.162158+05:30 rajesh CRON[8019]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:35:01.178541+05:30 rajesh CRON[8019]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:45:01.262567+05:30 rajesh CRON[8068]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:45:01.276931+05:30 rajesh CRON[8068]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:55:01.356369+05:30 rajesh CRON[8132]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T20:55:01.369076+05:30 rajesh CRON[8132]: pam_unix(cron:session): session closed for user root
+2025-04-03T20:55:32.390247+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-03T20:55:32.404518+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T20:55:43.344660+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T20:55:43.363118+05:30 rajesh sudo:   rajesh : TTY=pts/1 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-04-03T20:55:43.365285+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T20:56:41.322270+05:30 rajesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-03T20:56:41.325839+05:30 rajesh pkexec[8441]: rajesh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rajesh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-04-03T20:58:51.783455+05:30 rajesh polkitd[1347]: Reloading rules
+2025-04-03T20:58:51.783779+05:30 rajesh polkitd[1347]: Collecting garbage unconditionally...
+2025-04-03T20:58:51.792240+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T20:58:51.792627+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T20:58:51.933867+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T20:58:51.934918+05:30 rajesh polkitd[1347]: Reloading rules
+2025-04-03T20:58:51.935093+05:30 rajesh polkitd[1347]: Collecting garbage unconditionally...
+2025-04-03T20:58:51.935189+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T20:58:51.935275+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T20:58:51.994694+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T20:59:01.240607+05:30 rajesh polkitd[1347]: Reloading rules
+2025-04-03T20:59:01.242824+05:30 rajesh polkitd[1347]: Collecting garbage unconditionally...
+2025-04-03T20:59:01.242925+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T20:59:01.242982+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T20:59:01.247365+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T20:59:01.247490+05:30 rajesh polkitd[1347]: Reloading rules
+2025-04-03T20:59:01.247615+05:30 rajesh polkitd[1347]: Collecting garbage unconditionally...
+2025-04-03T20:59:01.247691+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T20:59:01.247740+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T20:59:01.253181+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T20:59:10.542108+05:30 rajesh polkitd[1347]: Reloading rules
+2025-04-03T20:59:10.548367+05:30 rajesh polkitd[1347]: Collecting garbage unconditionally...
+2025-04-03T20:59:10.549423+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T20:59:10.553837+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T20:59:10.619907+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T20:59:10.693389+05:30 rajesh polkitd[1347]: Reloading rules
+2025-04-03T20:59:10.711932+05:30 rajesh polkitd[1347]: Collecting garbage unconditionally...
+2025-04-03T20:59:10.713014+05:30 rajesh polkitd[1347]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-03T20:59:10.718388+05:30 rajesh polkitd[1347]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-03T20:59:10.720346+05:30 rajesh polkitd[1347]: Finished loading, compiling and executing 16 rules
+2025-04-03T21:02:06.956710+05:30 rajesh dbus-daemon[1331]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.74" (uid=1000 pid=2294 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.Profile1.Error.NotImplemented" requested_reply="0" destination=":1.5" (uid=0 pid=1330 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-04-03T21:02:06.960769+05:30 rajesh dbus-daemon[1331]: [system] Rejected send message, 0 matched rules; type="error", sender=":1.74" (uid=1000 pid=2294 comm="/usr/bin/wireplumber" label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.Profile1.Error.NotImplemented" requested_reply="0" destination=":1.5" (uid=0 pid=1330 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined")
+2025-04-03T21:03:13.975802+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-03T22:50:38.851192+05:30 rajesh CRON[21729]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T22:50:41.962019+05:30 rajesh CRON[21729]: pam_unix(cron:session): session closed for user root
+2025-04-03T22:50:41.969620+05:30 rajesh CRON[21731]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-03T22:50:41.975407+05:30 rajesh CRON[21731]: pam_unix(cron:session): session closed for user root
+2025-04-04T13:43:39.084503+05:30 rajesh systemd-logind[1322]: New seat seat0.
+2025-04-04T13:43:39.084685+05:30 rajesh polkitd[1313]: Loading rules from directory /etc/polkit-1/rules.d
+2025-04-04T13:43:39.084695+05:30 rajesh polkitd[1313]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-04-04T13:43:39.084703+05:30 rajesh systemd-logind[1322]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-04-04T13:43:39.084712+05:30 rajesh systemd-logind[1322]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-04-04T13:43:39.085435+05:30 rajesh polkitd[1313]: Finished loading, compiling and executing 16 rules
+2025-04-04T13:43:39.085488+05:30 rajesh polkitd[1313]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-04-04T13:43:47.734958+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-04-04T13:43:47.953296+05:30 rajesh systemd-logind[1322]: New session c1 of user gdm.
+2025-04-04T13:43:48.136660+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-04-04T13:44:07.209654+05:30 rajesh polkitd[1313]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-04T13:44:50.339732+05:30 rajesh gdm-password]: gkr-pam: unable to locate daemon control file
+2025-04-04T13:44:50.340558+05:30 rajesh gdm-password]: gkr-pam: stashed password to try later in open session
+2025-04-04T13:44:50.398019+05:30 rajesh gdm-password]: pam_unix(gdm-password:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-04T13:44:50.468385+05:30 rajesh systemd-logind[1322]: New session 2 of user rajesh.
+2025-04-04T13:44:50.572105+05:30 rajesh (systemd): pam_unix(systemd-user:session): session opened for user rajesh(uid=1000) by rajesh(uid=0)
+2025-04-04T13:44:51.468437+05:30 rajesh gdm-password]: gkr-pam: unlocked login keyring
+2025-04-04T13:44:54.353176+05:30 rajesh gnome-keyring-daemon[2187]: The PKCS#11 component was already initialized
+2025-04-04T13:44:54.355426+05:30 rajesh gnome-keyring-daemon[2385]: discover_other_daemon: 1
+2025-04-04T13:44:54.364975+05:30 rajesh gnome-keyring-daemon[2387]: discover_other_daemon: 1
+2025-04-04T13:44:54.370347+05:30 rajesh gnome-keyring-daemon[2187]: The Secret Service was already initialized
+2025-04-04T13:44:54.370904+05:30 rajesh gnome-keyring-daemon[2390]: discover_other_daemon: 1
+2025-04-04T13:45:00.747244+05:30 rajesh polkitd[1313]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-04-04T13:45:01.414762+05:30 rajesh CRON[2842]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T13:45:01.467164+05:30 rajesh CRON[2842]: pam_unix(cron:session): session closed for user root
+2025-04-04T13:45:05.632635+05:30 rajesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-04-04T13:45:05.711525+05:30 rajesh systemd-logind[1322]: Session c1 logged out. Waiting for processes to exit.
+2025-04-04T13:45:05.788639+05:30 rajesh polkitd[1313]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-04-04T13:45:06.239017+05:30 rajesh systemd-logind[1322]: Removed session c1.
+2025-04-04T13:47:09.588335+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-04T13:47:09.589625+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T13:47:31.857942+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T13:47:31.874953+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-04-04T13:47:31.875815+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T13:48:23.667571+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T13:55:01.497236+05:30 rajesh CRON[4486]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T13:55:01.512126+05:30 rajesh CRON[4486]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:04:53.607786+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-04T14:04:53.612676+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T14:04:57.204587+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T14:04:57.221634+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-04-04T14:04:57.223303+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T14:04:58.602541+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T14:05:01.360721+05:30 rajesh CRON[4844]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:05:01.374098+05:30 rajesh CRON[4844]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:15:01.403586+05:30 rajesh CRON[4875]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:15:01.419866+05:30 rajesh CRON[4875]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:17:01.444202+05:30 rajesh CRON[4878]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:17:01.792623+05:30 rajesh CRON[4878]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:25:01.817904+05:30 rajesh CRON[4892]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:25:01.825933+05:30 rajesh CRON[4892]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:30:01.837846+05:30 rajesh CRON[4915]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:30:01.843770+05:30 rajesh CRON[4915]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:35:01.870986+05:30 rajesh CRON[5050]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:35:01.889566+05:30 rajesh CRON[5050]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:45:01.919090+05:30 rajesh CRON[5087]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:45:01.931658+05:30 rajesh CRON[5087]: pam_unix(cron:session): session closed for user root
+2025-04-04T14:55:01.964483+05:30 rajesh CRON[5097]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T14:55:01.982903+05:30 rajesh CRON[5097]: pam_unix(cron:session): session closed for user root
+2025-04-04T15:05:02.020605+05:30 rajesh CRON[5169]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T15:05:02.040895+05:30 rajesh CRON[5169]: pam_unix(cron:session): session closed for user root
+2025-04-04T15:15:01.056654+05:30 rajesh CRON[5187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T15:15:01.061597+05:30 rajesh CRON[5187]: pam_unix(cron:session): session closed for user root
+2025-04-04T15:17:01.075510+05:30 rajesh CRON[5191]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T15:17:01.087426+05:30 rajesh CRON[5191]: pam_unix(cron:session): session closed for user root
+2025-04-04T15:39:41.094417+05:30 rajesh CRON[5229]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T15:39:41.096501+05:30 rajesh CRON[5229]: pam_unix(cron:session): session closed for user root
+2025-04-04T15:45:01.963051+05:30 rajesh CRON[5440]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T15:45:01.975306+05:30 rajesh CRON[5440]: pam_unix(cron:session): session closed for user root
+2025-04-04T15:55:01.074512+05:30 rajesh CRON[5452]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T15:55:01.095295+05:30 rajesh CRON[5452]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:05:01.201462+05:30 rajesh CRON[5478]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:05:01.213439+05:30 rajesh CRON[5478]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:15:01.291543+05:30 rajesh CRON[5502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:15:01.302767+05:30 rajesh CRON[5502]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:17:01.333169+05:30 rajesh CRON[5507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:17:01.346962+05:30 rajesh CRON[5507]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:25:01.417330+05:30 rajesh CRON[5517]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:25:01.421144+05:30 rajesh CRON[5517]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:30:01.468474+05:30 rajesh CRON[5528]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:30:01.482182+05:30 rajesh CRON[5528]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:35:01.542291+05:30 rajesh CRON[5540]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:35:01.547747+05:30 rajesh CRON[5540]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:45:01.637133+05:30 rajesh CRON[5658]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:45:01.649180+05:30 rajesh CRON[5658]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:50:35.332026+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-04T16:50:35.386731+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T16:50:48.940281+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T16:50:48.955611+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-04-04T16:50:48.957293+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T16:50:50.900546+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T16:55:01.729082+05:30 rajesh CRON[5994]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T16:55:01.741940+05:30 rajesh CRON[5994]: pam_unix(cron:session): session closed for user root
+2025-04-04T16:55:39.065889+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt update
+2025-04-04T16:55:39.070851+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T16:55:43.102215+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T16:55:43.119071+05:30 rajesh sudo:   rajesh : TTY=pts/0 ; PWD=/home/rajesh/Desktop/notes/linux/bash ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade
+2025-04-04T16:55:43.146860+05:30 rajesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rajesh(uid=1000)
+2025-04-04T16:55:44.641312+05:30 rajesh sudo: pam_unix(sudo:session): session closed for user root
+2025-04-04T17:05:01.835495+05:30 rajesh CRON[6314]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:05:01.851673+05:30 rajesh CRON[6314]: pam_unix(cron:session): session closed for user root
+2025-04-04T17:15:01.944450+05:30 rajesh CRON[6345]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:15:02.316432+05:30 rajesh CRON[6345]: pam_unix(cron:session): session closed for user root
+2025-04-04T17:17:01.369485+05:30 rajesh CRON[6418]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:17:01.398570+05:30 rajesh CRON[6418]: pam_unix(cron:session): session closed for user root
+2025-04-04T17:25:01.465699+05:30 rajesh CRON[6478]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:25:01.482119+05:30 rajesh CRON[6478]: pam_unix(cron:session): session closed for user root
+2025-04-04T17:30:01.533955+05:30 rajesh CRON[6533]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:30:01.541932+05:30 rajesh CRON[6533]: pam_unix(cron:session): session closed for user root
+2025-04-04T17:35:01.610543+05:30 rajesh CRON[6564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:35:01.623562+05:30 rajesh CRON[6564]: pam_unix(cron:session): session closed for user root
+2025-04-04T17:45:01.706557+05:30 rajesh CRON[6588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-04-04T17:45:01.725106+05:30 rajesh CRON[6588]: pam_unix(cron:session): session closed for user root

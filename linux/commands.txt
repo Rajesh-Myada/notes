@@ -71,3 +71,4 @@ head [file]	: Displays the first few lines of a file (default 10 lines)
 tail [file]	: Displays the last few lines of a file (default 10 lines)
 wc [file]	: Counts the number of lines, words, and characters in a file
 
+date		: prints date with time

@@ -1,0 +1,43 @@
+sending incremental file list
+created directory backup/current
+pictures/
+pictures/Arguments_script.png
+pictures/Backup_script.png
+pictures/Text_Processing_commands.png
+pictures/commands.txt
+
+sent 131,382 bytes  received 133 bytes  263,030.00 bytes/sec
+total size is 130,966  speedup is 1.00
+----------------------------------------------------------------------------
+sending incremental file list
+
+sent 221 bytes  received 17 bytes  476.00 bytes/sec
+total size is 130,966  speedup is 550.28
+----------------------------------------------------------------------------
+sending incremental file list
+pictures/
+pictures/text.txt
+
+sent 285 bytes  received 39 bytes  648.00 bytes/sec
+total size is 130,966  speedup is 404.22
+----------------------------------------------------------------------------
+sending incremental file list
+deleting pictures/text.txt
+pictures/
+
+sent 220 bytes  received 37 bytes  514.00 bytes/sec
+total size is 130,966  speedup is 509.60
+----------------------------------------------------------------------------
+sending incremental file list
+pictures/
+pictures/test.txt
+
+sent 287 bytes  received 39 bytes  652.00 bytes/sec
+total size is 130,966  speedup is 401.74
+----------------------------------------------------------------------------
+sending incremental file list
+pictures/Text_Processing_commands.png
+
+sent 33,250 bytes  received 36 bytes  66,572.00 bytes/sec
+total size is 130,966  speedup is 3.93
+----------------------------------------------------------------------------

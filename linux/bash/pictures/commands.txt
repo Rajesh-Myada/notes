@@ -1,0 +1,74 @@
+Shortcuts
+
+:h[elp] keyword - open help for keyword
+:sav[eas] file - save file as
+:clo[se] - close current pane
+:ter[minal] - open a terminal window
+K - open man page for word under the cursor
+
+Terminal
+
+File and Directory Operations
+man <command> 		: gives the manual of the command
+ls			: Lists files and directories in the current directory
+cd [directory]		: Changes the current directory to the specified one
+pwd			: Prints the current working directory
+mkdir [directory]	: Creates a new directory
+rmdir [directory]	: Removes an empty directory
+rm [file]		: Deletes a file
+rm -r [directory]	: Deletes a directory and its contents recursively
+cp [source] [destination]: Copies a file or directory to another location
+mv [source] [destination]: Moves a file or directory to another location or renames it
+touch [file]		: Creates a new empty file (or updates the timestamp of an existing file)
+cat [file]		: Displays the contents of a file
+
+System Information and Management
+uname -a	: Displays information about the system, including the kernel version
+top		: Displays a list of currently running processes and system resource usage
+htop		: An enhanced version of top, shows processes in a more user-friendly way. (Requires installation with sudo apt install htop)
+df		: Displays information about disk space usage
+free		: Shows memory usage statistics
+uptime		: Shows how long the system has been running, and system load averages
+reboot		: Reboots the system
+shutdown	: Shuts down the system
+
+User Management
+whoami			: Displays the current logged-in username
+adduser [username]	: Adds a new user to the system
+passwd [username]	: Changes the password for a user
+su [username]		: Switches to another user account (requires the password)
+groups			: Displays the groups that the current user is a member of
+
+Package Management (APT)
+sudo apt update			: Updates the list of available packages and their versions
+sudo apt upgrade		: Upgrades all installed packages to the latest version
+sudo apt install [package]	: Installs a new package
+sudo apt remove [package]	: Removes a package
+sudo apt search [package]	: Searches for a package in the repository
+sudo apt autoremove		: Removes unnecessary packages (usually dependencies no longer required)
+
+Networking Commands
+ifconfig		: Displays or configures network interfaces (use ip a in newer systems)
+ip a			: Displays detailed information about all network interfaces
+ping [hostname/IP]	: Tests connectivity to a host
+curl [URL]		: Transfers data from or to a server (useful for downloading files or interacting with APIs)
+wget [URL]		: Downloads files from the web
+
+File Permissions
+chmod [permissions] [file]	: Changes the permissions of a file or directory
+chown [user]:[group] [file]	: Changes the owner and group of a file
+
+Finding Files and Directories
+find [path] -name [filename]	: Searches for a file or directory by name
+locate [filename]		: Quickly searches for a file or directory using a pre-built database (requires sudo updatedb to update the database)
+grep [pattern] [file]		: Searches for a pattern in a file
+
+Text Processing
+cat [file]	: Displays the contents of a file
+more [file]	: Views the content of a file one screen at a time
+less [file]	: Similar to more, but allows both forward and backward navigation
+head [file]	: Displays the first few lines of a file (default 10 lines)
+tail [file]	: Displays the last few lines of a file (default 10 lines)
+wc [file]	: Counts the number of lines, words, and characters in a file
+
+date		: prints date with time
